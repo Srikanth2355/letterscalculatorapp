@@ -1,0 +1,70 @@
+/* Write your code here. */
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(to right, #1d976c, #93f9b9);
+  justify-content: center;
+}
+.image {
+  width: 50%;
+}
+
+.heading {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.label {
+  color: #ffffff;
+  font-size: 12px;
+}
+.input {
+  border: 1px solid white;
+  background: transparent;
+  font-size: 16px;
+  width: 50%;
+  border-radius: 10px;
+  height: 40px;
+  padding: 10px;
+  outline: none;
+  color: #ffffff;
+}
+.countcontainer {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: 30%;
+  margin: 20px 0px 20px 0px;
+  text-align: center;
+}
+.para {
+  margin: 0px;
+  color: #219a6f;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 993px) {
+  .container {
+    flex-wrap: wrap-reverse;
+  }
+  .image {
+    width: 80%;
+  }
+  .heading {
+    text-align: center;
+    font-size: 45px;
+  }
+  .textcontainer {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  .countcontainer {
+    width: 50%;
+  }
+}
